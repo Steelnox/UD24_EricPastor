@@ -41,20 +41,6 @@ namespace UD22_Ejercicio1.Controllers
             return cliente;
         }
 
-        // GET: api/Clientes/5
-        [HttpGet("{nombre}")]
-        public async Task<ActionResult<Cliente>> GetClienteNombre(string nombre)
-        {
-            var cliente = await _context.Clientes.FindAsync(nombre);
-
-            if (cliente == null)
-            {
-                return NotFound();
-            }
-
-            return cliente;
-        }
-
         // PUT: api/Clientes/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.

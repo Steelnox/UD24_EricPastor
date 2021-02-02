@@ -10,7 +10,7 @@ https://prnt.sc/y09rq1
 DELETE
 https://prnt.sc/y0aszg
 SWAGGER
-https://prnt.sc/y0d64j
+https://prnt.sc/y0fb33
 
 
 
